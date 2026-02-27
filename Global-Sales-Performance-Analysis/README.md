@@ -2,9 +2,7 @@
 📌 Project Overview
 
 This project performs an end-to-end sales performance analysis using Python, SQL, and Power BI.
-
 The objective is to simulate a real-world Data Analyst workflow — starting from raw data cleaning, exploratory data analysis (EDA), SQL-based business analysis, and ending with an executive-level interactive dashboard.
-
 This project focuses on business insights and decision-making rather than machine learning.
 
 📊 Dashboard Preview
@@ -94,4 +92,5 @@ SQL-based business metric calculation
 Interactive dashboard development in Power BI
 Business storytelling with actionable insights
 Professional project organization for portfolio use
+
 
