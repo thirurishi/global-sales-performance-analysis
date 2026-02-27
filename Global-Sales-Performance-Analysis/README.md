@@ -7,6 +7,13 @@ The objective is to simulate a real-world Data Analyst workflow — starting fro
 
 This project focuses on business insights and decision-making rather than machine learning.
 
+📊 Dashboard Preview
+Executive Overview
+![Executive Overview](images/dashboard_overview.png)
+
+### Business Deep Dive
+![Business Deep Dive](images/deep_dive_analysis.png)
+
 🛠 Tools & Technologies Used
 
 Python (Pandas, NumPy, Matplotlib, Seaborn)
@@ -87,3 +94,4 @@ SQL-based business metric calculation
 Interactive dashboard development in Power BI
 Business storytelling with actionable insights
 Professional project organization for portfolio use
+
