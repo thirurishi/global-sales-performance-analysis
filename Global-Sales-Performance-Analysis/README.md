@@ -7,8 +7,8 @@ The objective is to simulate a real-world Data Analyst workflow — starting fro
 
 This project focuses on business insights and decision-making rather than machine learning.
 
-🛠 Tools & Technologies Used
 
+🛠 Tools & Technologies Used
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 SQL (SQLite)
 Power BI Desktop
@@ -91,3 +91,4 @@ Interactive dashboard development in Power BI
 Business storytelling with actionable insights
 
 Professional project organization for portfolio use
+
