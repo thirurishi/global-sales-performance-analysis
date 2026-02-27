@@ -7,8 +7,8 @@ The objective is to simulate a real-world Data Analyst workflow — starting fro
 
 This project focuses on business insights and decision-making rather than machine learning.
 
-
 🛠 Tools & Technologies Used
+
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 SQL (SQLite)
 Power BI Desktop
@@ -26,13 +26,13 @@ Global-Sales-Performance-Analysis
 │   ├── 02_sql_analysis.ipynb
 │
 ├── sql/
+│   ├── business_analysis.sql
 │
 ├── images/
 │
 ├── global_sales_dashboard.pbix
 │
 └── README.md
-
 
 🔍 Business Questions Answered
 
@@ -54,11 +54,9 @@ High discounts are strongly associated with negative profits
 Consumer segment generates the highest revenue
 
 📊 Dashboard Pages
-
 1️⃣ Executive Overview
 
 Includes:
-
 KPI cards (Revenue, Profit, Margin, Orders, AOV)
 Yearly Sales Trend
 Sales by Region
@@ -69,7 +67,6 @@ Interactive filters
 2️⃣ Business Deep Dive
 
 Includes:
-
 Profit by Category
 Profit by Customer Segment
 Discount vs Profit analysis (scatter plot)
@@ -89,6 +86,4 @@ Structured exploratory data analysis
 SQL-based business metric calculation
 Interactive dashboard development in Power BI
 Business storytelling with actionable insights
-
 Professional project organization for portfolio use
-
