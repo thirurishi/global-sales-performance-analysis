@@ -180,26 +180,8 @@ seaborn
 
 📂 Project Structure
 global-sales-performance-analysis
-│
-├── data/
-│   ├── raw/
-│   ├── cleaned/
-│
-├── notebooks/
-│   ├── 01_data_cleaning_eda.ipynb
-│   ├── 02_sql_analysis.ipynb
-│
-├── sql/
-│   ├── business_analysis.sql
-│
-├── dashboard/
-│   ├── global_sales_dashboard.pbix
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── deep_dive_analysis.png
-│
-└── README.md
+<img width="730" height="576" alt="image" src="https://github.com/user-attachments/assets/6b432975-6f7f-47ed-ac26-c9bb6dfdd6f8" />
+
 ▶ How to Use This Project
 
 Open the Power BI file in the dashboard/ folder.
