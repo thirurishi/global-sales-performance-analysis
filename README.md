@@ -115,27 +115,8 @@ Python Libraries
 •	seaborn
 ________________________________________
 📂 Project Structure
-global-sales-performance-analysis
-│
-├── data/
-│   ├── raw/
-│   ├── cleaned/
-│
-├── notebooks/
-│   ├── 01_data_cleaning_eda.ipynb
-│   ├── 02_sql_analysis.ipynb
-│
-├── sql/
-│   ├── business_analysis.sql
-│
-├── dashboard/
-│   ├── global_sales_dashboard.pbix
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── deep_dive_analysis.png
-│
-└── README.md
+<img width="895" height="585" alt="image" src="https://github.com/user-attachments/assets/df637a82-b46d-4251-a648-53f22572d485" />
+
 ________________________________________
 ▶ How to Use This Project
 1.	Open the Power BI file in the dashboard/ folder.
