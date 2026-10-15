@@ -1,144 +1,293 @@
-📊 Global Sales Performance Analysis & Executive Dashboard
+ <div align="center">
 
+# GLOBAL SALES INTELLIGENCE
 
-Overview
+### Global Sales Performance Analysis & Executive Dashboard
 
-This project is an end-to-end Data Analytics workflow that analyzes retail sales performance using Python, SQL, and Power BI.
-It simulates a real-world business analytics environment — starting from raw data cleaning, exploratory analysis, SQL-based KPI computation, and ending with a two-page executive dashboard for decision-making.
-The primary goal of this project is to generate actionable business insights rather than focus on machine learning.
-________________________________________
-🚀 Features & Analytical Workflow
+**Understand performance. Discover opportunities. Drive decisions.**
 
-🧠 Business Understanding & KPI Design
-•	Defined key business questions:
-o	What is the total revenue and profit?
-o	Which regions drive performance?
-o	Which product categories are underperforming?
-o	How do discounts impact profitability?
-o	Which customer segments contribute most to revenue?
-•	Identified core KPIs:
-o	Total Revenue
-o	Total Profit
-o	Profit Margin
-o	Total Orders
-o	Average Order Value (AOV)
-________________________________________
-🧹 Data Cleaning & Preprocessing (Python)
-•	Loaded and inspected 9,994+ retail sales records
-•	Checked for:
-o	Missing values
-o	Duplicate records
-o	Data type inconsistencies
-•	Converted date columns properly
-•	Created engineered features:
-o	Order Year
-o	Order Month
-o	Profit Margin
-•	Saved cleaned dataset separately for reproducibility
-📌 Tools Used:
-•	pandas
-•	numpy
-________________________________________
-📊 Exploratory Data Analysis (EDA)
-•	Revenue and profit distribution analysis
-•	Yearly and monthly sales trend analysis
-•	Regional performance comparison
-•	Category-level profitability analysis
-•	Customer segment contribution analysis
-•	Correlation analysis between discount and profit
-📌 Key Insight:
-High discount levels strongly correlate with reduced profitability.
-📌 Tools Used:
-•	matplotlib
-•	seaborn
-________________________________________
-🗄 SQL Business Analysis
-•	Loaded cleaned data into SQLite database
-•	Created structured sales table
-•	Wrote SQL queries to compute:
-o	Total Revenue & Profit
-o	Profit Margin by Region
-o	Top 5 Profitable Products
-o	Loss-making Products
-o	Yearly Performance Trends
-•	Validated Python insights using SQL aggregation
-📌 Purpose:
-Simulate real-world database environments where analysts extract KPIs directly from structured data systems.
-________________________________________
-📈 Interactive Dashboard (Power BI)
-The project includes a two-page interactive dashboard:
-1️⃣ Executive Overview
-•	KPI Cards:
-o	Total Revenue
-o	Total Profit
-o	Profit Margin
-o	Total Orders
-o	Average Order Value
-•	Yearly Sales Trend
-•	Sales by Region
-•	Sales by Category
-•	Sales by Customer Segment
-•	Interactive Slicers (Year, Region, Category)
-2️⃣ Business Deep Dive
-•	Profit by Category
-•	Profit by Customer Segment
-•	Discount vs Profit Scatter Analysis
-•	Profitability Drivers & Risk Areas
-📌 Dashboard File:
-Located in the dashboard/ folder.
-________________________________________
-📌 Key Business Insights
-•	Total Revenue: ~$2.29M
-•	Total Profit: ~$286K
-•	Profit Margin: ~12.47%
-•	West region is the strongest performer
-•	Furniture category shows weak margins despite strong sales
-•	Higher discount rates significantly reduce profit
-•	Consumer segment generates the highest revenue share
-________________________________________
-💡 Business Recommendations
-•	Reduce aggressive discounting strategies
-•	Reevaluate pricing in low-margin categories (Furniture)
-•	Focus growth strategies on high-performing regions
-•	Optimize targeting strategies for high-revenue customer segments
-________________________________________
-🛠 Technologies Used
-Core Tools
-•	Python
-•	SQL (SQLite)
-•	Power BI Desktop
-•	Git & GitHub
-Python Libraries
-•	pandas
-•	numpy
-•	matplotlib
-•	seaborn
-________________________________________
-📂 Project Structure
-<img width="895" height="585" alt="image" src="https://github.com/user-attachments/assets/df637a82-b46d-4251-a648-53f22572d485" />
+An end-to-end retail analytics project combining Python, SQL and Power BI to transform raw sales data into actionable business insights.
 
-________________________________________
-▶ How to Use This Project
-1.	Open the Power BI file in the dashboard/ folder.
-2.	Navigate between:
-o	Executive Overview
-o	Business Deep Dive
-3.	Use slicers to filter by:
-o	Year
-o	Region
-o	Category
-4.	Review insights and profitability drivers.
-________________________________________
-📊 Dashboard Preview
-Executive Overview
-Business Deep Dive
-________________________________________
-🎯 What This Project Demonstrates
-•	End-to-end data analytics workflow
-•	Data cleaning and feature engineering
-•	SQL-based KPI computation
-•	Business-focused exploratory analysis
-•	Executive dashboard development
-•	Insight generation & storytelling
-•	Professional project structuring for portfolio use
+<br>
 
+![Python](https://img.shields.io/badge/Python-Analytics-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQL-SQLite-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Executive%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
+---
+
+## Project overview
+
+This project simulates a real-world business analytics workflow, from raw data preparation to executive reporting.
+
+Using Python for data cleaning and exploratory analysis, SQLite for structured business queries, and Power BI for interactive visualisation, the project examines sales performance, profitability, regional trends, customer segments and discount patterns.
+
+The objective is to go beyond reporting numbers and translate data into meaningful business observations and recommendations.
+
+## Performance snapshot
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**TOTAL REVENUE**
+
+# ~$2.29M
+
+</td>
+<td align="center" width="25%">
+
+**TOTAL PROFIT**
+
+# ~$286K
+
+</td>
+<td align="center" width="25%">
+
+**PROFIT MARGIN**
+
+# ~12.47%
+
+</td>
+<td align="center" width="25%">
+
+**SALES RECORDS**
+
+# 9,994+
+
+</td>
+</tr>
+</table>
+
+</div>
+
+*Values are approximate and reflect the figures documented for this project.*
+
+---
+
+## Analytics workflow
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 · Business understanding
+
+Defined business questions and established KPIs covering revenue, profit, profit margin, order volume and average order value.
+
+</td>
+<td width="50%" valign="top">
+
+### 02 · Data preparation
+
+Used pandas and NumPy to inspect data quality, handle missing values and duplicates, correct data types, prepare dates and engineer analytical features.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 · Exploratory analysis
+
+Examined sales trends, regional performance, category profitability, customer segments and the relationship between discounts and profit.
+
+</td>
+<td width="50%" valign="top">
+
+### 04 · SQL analysis & validation
+
+Loaded the cleaned data into SQLite, calculated business KPIs using SQL and compared SQL aggregations with Python analysis.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 05 · Executive reporting
+
+Developed a two-page Power BI dashboard with KPI cards, trend charts, category and regional comparisons, customer-segment analysis and interactive slicers.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Power BI dashboard
+
+### 01 — Executive Overview
+
+A high-level view of business performance designed to make key metrics and trends easy to understand.
+
+**Key components**
+- Revenue, profit, profit margin, orders and average order value
+- Yearly sales trends
+- Sales by region and category
+- Customer-segment contribution
+- Interactive year, region and category slicers
+
+<div align="center">
+
+<!-- Replace the path below with the actual tracked screenshot path in this repository. -->
+
+</div>
+
+### 02 — Business Deep Dive
+
+A detailed analysis of profitability and potential business risks.
+
+**Key components**
+- Profitability by product category
+- Profit contribution by customer segment
+- Discount-versus-profit scatter analysis
+- Identification of low-profit and loss-making areas
+
+<div align="center">
+
+<!-- Add your actual Business Deep Dive screenshot path here. -->
+
+</div>
+
+> **Dashboard screenshots:** Add the actual image paths from this repository to the sections above. The original README mentions a `dashboard/` directory, but the precise screenshot filenames have not been provided here.
+
+---
+
+## Business questions
+
+The analysis investigates five key areas:
+
+| Business question | Analytical approach |
+|---|---|
+| What are the overall revenue and profit levels? | KPI aggregation in Python and SQL |
+| Which regions perform most strongly? | Regional performance comparisons |
+| Which categories underperform? | Category-level revenue and profitability analysis |
+| How are discounts associated with profit? | Discount and profit analysis, including correlation |
+| Which customer segments contribute most to revenue? | Customer-segment aggregation and dashboard comparison |
+
+---
+
+## Key findings
+
+The current project analysis reports the following observations:
+
+- **Regional performance:** The West region is identified as the strongest performer.
+- **Category profitability:** Furniture shows relatively weak margins despite strong sales.
+- **Discount patterns:** Higher discounts are associated with reduced profitability.
+- **Customer segments:** The Consumer segment contributes the highest revenue share.
+
+These observations can help guide further investigation into pricing, discount policies, category performance and customer-segment strategy. The analysis identifies associations; it does not independently prove that discounts cause lower profits.
+
+## Business recommendations
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Pricing & discounts
+
+Review aggressive discounting and investigate the discount levels associated with weak or negative profit.
+
+</td>
+<td width="50%" valign="top">
+
+### Category performance
+
+Evaluate the pricing, cost structure and product mix of lower-margin categories such as Furniture.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Regional growth
+
+Investigate what contributes to stronger regional performance and assess opportunities to replicate successful approaches.
+
+</td>
+<td width="50%" valign="top">
+
+### Customer strategy
+
+Use segment-level revenue analysis to support more informed targeting and growth planning.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technology stack
+
+<div align="center">
+
+| Technology | Purpose |
+|---|---|
+| **Python** | Data cleaning, feature engineering and exploratory analysis |
+| **pandas** | Data inspection and transformation |
+| **NumPy** | Numerical operations |
+| **Matplotlib & Seaborn** | Exploratory data visualisation |
+| **SQLite** | Structured storage and SQL-based KPI analysis |
+| **Power BI Desktop** | Interactive dashboards and executive reporting |
+| **Git & GitHub** | Version control and project sharing |
+
+</div>
+
+---
+
+## Repository structure
+
+```text
+global-sales-performance/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/ or src/
+├── sql/
+├── dashboard/
+├── README.md
+└── .gitignore
+```
+
+*Illustrative structure: adjust the folder names above to match the actual repository.*
+
+---
+
+## How to explore the project
+
+1. Review the Python cleaning and exploratory analysis workflow.
+2. Examine the SQL queries used to calculate KPIs and investigate profitability.
+3. Open the Power BI report in Power BI Desktop.
+4. Explore both dashboard pages using the available slicers.
+5. Review the findings and recommendations alongside the underlying analysis.
+
+The original dataset and exact setup instructions should be obtained from the repository's existing documentation. Use appropriately licensed data when reproducing the analysis.
+
+---
+
+## What this project demonstrates
+
+- End-to-end data analytics workflow
+- Data cleaning and feature engineering
+- SQL-based KPI computation
+- Exploratory data analysis and trend investigation
+- Interactive Power BI dashboard development
+- Business insight generation and communication
+- Validation of analytical results across tools
+
+---
+
+<div align="center">
+
+### From data exploration to business understanding.
+
+**Thirumurugan Kumar**
+
+MSc Data Science & Analytics  
+Data Analytics · Python · SQL · Power BI
+
+</div>
